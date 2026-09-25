@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FinFET pMOS Embedded SiGe S/D Stress Engineering</title>
+<meta name="description" content="Sentaurus TCAD study of Ge composition and fin recess depth for stress transfer and electrical trade-offs in pMOS FinFET.">
+<link rel="stylesheet" href="assets/css/project.css">
+</head>
+<body>
+<header class="top">
+  <div class="topin">
+    <div class="brand">Subin Joo · Semiconductor Portfolio</div>
+    <nav class="nav">
+      <a href="./README.md">README</a>
+      <a href="./guide/00_navigation.md">GUIDE</a>
+      <a href="https://github.com/soybeanmilk0514-jpg/TCAD-FinFET-SiGe-Stress-Engineering">GITHUB</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-in">
+    <div class="eyebrow">TCAD · FinFET · Stress Engineering · 2026.08–09</div>
+    <h1>FinFET pMOS Embedded SiGe S/D<br>Stress Engineering</h1>
+    <p class="summary">
+      Ge composition과 Source/Drain fin recess depth를 5×5로 조합해 채널 압축응력, Stress Transfer Efficiency,
+      gm, SS, DIBL, Ioff의 trade-off를 분석하고, practical FR design window를 도출한 Sentaurus TCAD 팀 프로젝트입니다.
+    </p>
+    <div class="meta">
+      <div><span>Competition</span><strong>2nd screening reached</strong></div>
+      <div><span>Main DoE</span><strong>25 / 25 runs</strong></div>
+      <div><span>My runs</span><strong>10 core points</strong></div>
+      <div><span>Final window</span><strong>FR 15–20 nm</strong></div>
+    </div>
+    <div class="actions">
+      <a class="btn primary" href="./guide/05_my_contribution.md">My Contribution</a>
+      <a class="btn" href="./results/">Results</a>
+      <a class="btn" href="./guide/08_design_window.md">Design Window</a>
+      <a class="btn" href="./report/">Team Report</a>
+    </div>
+  </div>
+</section>
+
+<main>
+<section class="visual">
+  <img src="./figures/project-flow.svg" alt="Project flow">
+  <div class="card">
+    <h2>Project summary</h2>
+    <p><b>Device:</b> 25 nm pMOS FinFET + Embedded SiGe S/D</p>
+    <p><b>Variables:</b> Ge 30–70% × FR 0–35 nm</p>
+    <p><b>Question:</b> stress input과 실제 channel transfer를 분리해 보고, electrical penalty가 급증하기 전 공정 창을 찾을 수 있는가?</p>
+    <p><b>Conclusion:</b> FR 15–20 nm</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="label">01 · OVERVIEW</div>
+  <h2>Maximum stress가 아니라 useful process window를 찾는 문제</h2>
+  <p>
+    Embedded SiGe S/D는 pMOS channel에 compressive stress를 전달해 drive performance를 높일 수 있지만,
+    Ge 조성과 recess depth를 계속 키우면 leakage와 electrostatic-control penalty도 커질 수 있습니다.
+    이 프로젝트는 absolute stress, normalized STE, and electrical metrics를 한 설계공간에서 함께 비교했습니다.
+  </p>
+</section>
+
+<section class="section">
+  <div class="label">02 · MY CONTRIBUTION</div>
+  <h2>Ge 30%·40% 두 열, 총 10개 core TCAD points 직접 수행</h2>
+  <div class="grid">
+    <div class="metric"><span>Ge columns</span><strong>30%, 40%</strong></div>
+    <div class="metric"><span>FR levels</span><strong>0 / 10 / 20 / 30 / 35</strong></div>
+    <div class="metric"><span>Core runs</span><strong>10</strong></div>
+    <div class="metric"><span>Outputs</span><strong>Stress + electrical</strong></div>
+  </div>
+  <p class="note">
+    Team-wide conclusions, final STE definition, refinement runs, and statistical analysis are presented as collaborative results rather than individual work.
+  </p>
+</section>
+
+<section class="section">
+  <div class="label">03 · 25-POINT STE MAP</div>
+  <h2>STE는 FR 약 20 nm까지 상승한 뒤 포화</h2>
+  <div class="figure">
+    <img src="./figures/ste-map.svg" alt="STE heatmap reconstructed from team grid">
+    <div class="credit">Portfolio visualization reconstructed from the final team 25-point grid.</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="label">04 · ORIGINAL TEAM ANALYSIS</div>
+  <h2>Team-generated 2-D map and trade-off figures</h2>
+  <div class="visual">
+    <div class="figure">
+      <img src="https://raw.githubusercontent.com/ryu980920/Share/main/analysis/figures/pres_STE_map.png" alt="Original team STE map">
+      <div class="credit">Original team analysis output · ryu980920/Share</div>
+    </div>
+    <div class="figure">
+      <img src="https://raw.githubusercontent.com/ryu980920/Share/main/analysis/figures/pres_tradeoff_overlay.png" alt="Original team trade-off overlay">
+      <div class="credit">Original team analysis output · ryu980920/Share</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="label">05 · FINAL DESIGN WINDOW</div>
+  <h2>Ge=50% refinement identifies FR 15–20 nm</h2>
+  <div class="table">
+    <table>
+      <thead><tr><th>FR</th><th>STE</th><th>gmSat</th><th>SSlin</th><th>Ioff_norm</th></tr></thead>
+      <tbody>
+        <tr><td>15 nm</td><td>0.660</td><td>1.143e-4</td><td>82.2</td><td>5.26e-10</td></tr>
+        <tr><td>20 nm</td><td>0.667</td><td><b>1.149e-4</b></td><td>84.7</td><td>9.68e-10</td></tr>
+        <tr><td>22 nm</td><td>0.668</td><td>1.131e-4</td><td>87.5</td><td>1.93e-9</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    FR 20→22 nm에서는 STE가 거의 늘지 않지만 gmSat은 감소하고 Ioff는 약 두 배 증가합니다.
+    따라서 팀은 대부분의 stress-transfer benefit을 확보하면서 penalty 급증을 피하는 FR 15–20 nm를 practical window로 제안했습니다.
+  </p>
+</section>
+
+<section class="section">
+  <div class="label">06 · MECHANISM CHECK</div>
+  <h2>Deep recess degradation은 strain만의 문제가 아니었다</h2>
+  <p>
+    Ge=50%에서 Strain_Impact ON/OFF FR sweep을 비교한 결과, strain coupling을 꺼도 SS, DIBL, Ioff degradation이 크게 남았습니다.
+    팀은 이를 recess geometry에 따른 electrostatic change가 1차 원인이고, strain/band-structure effect가 추가적인 leakage penalty를 만드는 것으로 해석했습니다.
+  </p>
+</section>
+
+<section class="section">
+  <div class="label">07 · RESOURCES</div>
+  <h2>Documentation and evidence</h2>
+  <div class="resource">
+    <a href="./guide/00_navigation.md"><strong>Project Guide</strong><span>문제 정의부터 validation과 limitations까지</span></a>
+    <a href="./results/subin_doe.csv"><strong>My 10 Runs</strong><span>Ge 30/40% × five FR levels</span></a>
+    <a href="./results/team_doe_grid.csv"><strong>Team 25-Point Grid</strong><span>merged final result table with provenance</span></a>
+    <a href="./source/README.md"><strong>Source Scope</strong><span>Synopsys proprietary code redistribution policy</span></a>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+2026 Next-Generation Semiconductor Competition Portfolio · Subin Joo · Team outputs credited to the original collaborative repositories
+</footer>
+</body>
+</html>
