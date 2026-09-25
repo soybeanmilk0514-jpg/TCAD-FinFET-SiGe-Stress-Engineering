@@ -30,10 +30,6 @@ At Ge=50%, FR=20 nm:
 
 Increasing FR to 22 nm changed STE only from 0.667 to 0.668 while gmSat decreased and Ioff_norm increased to 1.93e-9.
 
-## Competition
-
-The project advanced through the first screening to the second of three screening stages, but did not receive an award.
-
 ## Documentation
 
 See [Project Navigation](./guide/00_navigation.md) for the full documentation path and [My Contribution](./guide/05_my_contribution.md) for individual work boundaries.
