@@ -1,10 +1,4 @@
-# 10. Limitations, Competition Outcome & Lessons
-
-## Competition Outcome
-
-이 프로젝트는 3단계 심사 과정 중 1차 심사를 통과해 2차 심사까지 진출했지만, 2차 심사에서 탈락하여 수상하지 못했다.
-
-포트폴리오에서는 이를 수상 프로젝트처럼 표현하지 않는다.
+# 10. Limitations & Lessons
 
 ## Technical Limits
 
