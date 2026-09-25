@@ -6,7 +6,6 @@
 
 프로젝트의 최종 결론은 **응력 자체를 최대화하는 조건보다, 응력 전달 이득이 포화되기 전에 전기적 손실을 억제하는 FR 15–20 nm 구간이 실용적인 설계창**이라는 것입니다.
 
-> Competition outcome: 3단계 심사 중 1차 심사를 통과해 2차 심사까지 진출했으며, 최종 수상에는 이르지 못했습니다.
 
 ---
 
@@ -106,7 +105,7 @@ A Strain_Impact ON/OFF FR sweep showed that SS, DIBL, and leakage degradation re
 | [2-D Results](./guide/07_2d_results.md) | Ge·FR 주효과와 25점 지도 |
 | [Design Window](./guide/08_design_window.md) | FR 15–20 nm 도출 근거 |
 | [Validation](./guide/09_validation_and_sensitivity.md) | Strain ON/OFF, 재현성, fin-width 민감도 |
-| [Limitations](./guide/10_limitations_and_lessons.md) | 적용 범위, 경진대회 결과, 개선점 |
+| [Limitations](./guide/10_limitations_and_lessons.md) | 적용 범위와 개선점 |
 | [References](./references/README.md) | 최종 보고서 사용 문헌 |
 | [Source Scope](./source/README.md) | 공개 가능한 코드·자료 범위 |
 
