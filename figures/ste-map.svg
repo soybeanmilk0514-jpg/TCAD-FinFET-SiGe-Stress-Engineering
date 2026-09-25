@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+<rect width="900" height="650" fill="#fff"/>
+<style>
+.t{font:700 28px Arial,sans-serif;fill:#172033}.l{font:18px Arial,sans-serif;fill:#4d596c}.v{font:700 18px Arial,sans-serif;fill:#172033;text-anchor:middle}.c1{fill:#eef4ff}.c2{fill:#dfeaff}.c3{fill:#c8dcff}.c4{fill:#a8c7ff}.c5{fill:#8bb5ff}.b{stroke:#fff;stroke-width:3}
+</style>
+<text class="t" x="70" y="55">Stress Transfer Efficiency — 25-point team grid</text>
+<text class="l" x="70" y="92">Rows: FR (nm) · Columns: Ge (%)</text>
+<text class="l" x="245" y="140">30</text><text class="l" x="365" y="140">40</text><text class="l" x="485" y="140">50</text><text class="l" x="605" y="140">60</text><text class="l" x="725" y="140">70</text>
+<text class="l" x="110" y="202">0</text><text class="l" x="100" y="292">10</text><text class="l" x="100" y="382">20</text><text class="l" x="100" y="472">30</text><text class="l" x="100" y="562">35</text>
+
+<g transform="translate(185,160)">
+<rect class="c1 b" x="0" y="0" width="110" height="80"/><text class="v" x="55" y="48">0.593</text>
+<rect class="c1 b" x="120" y="0" width="110" height="80"/><text class="v" x="175" y="48">0.596</text>
+<rect class="c1 b" x="240" y="0" width="110" height="80"/><text class="v" x="295" y="48">0.598</text>
+<rect class="c1 b" x="360" y="0" width="110" height="80"/><text class="v" x="415" y="48">0.602</text>
+<rect class="c1 b" x="480" y="0" width="110" height="80"/><text class="v" x="535" y="48">0.607</text>
+
+<rect class="c3 b" x="0" y="90" width="110" height="80"/><text class="v" x="55" y="138">0.649</text>
+<rect class="c3 b" x="120" y="90" width="110" height="80"/><text class="v" x="175" y="138">0.647</text>
+<rect class="c3 b" x="240" y="90" width="110" height="80"/><text class="v" x="295" y="138">0.648</text>
+<rect class="c3 b" x="360" y="90" width="110" height="80"/><text class="v" x="415" y="138">0.650</text>
+<rect class="c3 b" x="480" y="90" width="110" height="80"/><text class="v" x="535" y="138">0.654</text>
+
+<rect class="c5 b" x="0" y="180" width="110" height="80"/><text class="v" x="55" y="228">0.672</text>
+<rect class="c4 b" x="120" y="180" width="110" height="80"/><text class="v" x="175" y="228">0.667</text>
+<rect class="c4 b" x="240" y="180" width="110" height="80"/><text class="v" x="295" y="228">0.667</text>
+<rect class="c4 b" x="360" y="180" width="110" height="80"/><text class="v" x="415" y="228">0.668</text>
+<rect class="c5 b" x="480" y="180" width="110" height="80"/><text class="v" x="535" y="228">0.671</text>
+
+<rect class="c5 b" x="0" y="270" width="110" height="80"/><text class="v" x="55" y="318">0.677</text>
+<rect class="c5 b" x="120" y="270" width="110" height="80"/><text class="v" x="175" y="318">0.671</text>
+<rect class="c5 b" x="240" y="270" width="110" height="80"/><text class="v" x="295" y="318">0.670</text>
+<rect class="c5 b" x="360" y="270" width="110" height="80"/><text class="v" x="415" y="318">0.670</text>
+<rect class="c5 b" x="480" y="270" width="110" height="80"/><text class="v" x="535" y="318">0.673</text>
+
+<rect class="c5 b" x="0" y="360" width="110" height="80"/><text class="v" x="55" y="408">0.676</text>
+<rect class="c5 b" x="120" y="360" width="110" height="80"/><text class="v" x="175" y="408">0.670</text>
+<rect class="c4 b" x="240" y="360" width="110" height="80"/><text class="v" x="295" y="408">0.668</text>
+<rect class="c4 b" x="360" y="360" width="110" height="80"/><text class="v" x="415" y="408">0.668</text>
+<rect class="c5 b" x="480" y="360" width="110" height="80"/><text class="v" x="535" y="408">0.670</text>
+</g>
+<text class="l" x="70" y="625">Portfolio visualization reconstructed from the team-generated final grid.</text>
+</svg>
