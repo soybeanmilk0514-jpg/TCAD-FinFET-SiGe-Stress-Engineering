@@ -11,7 +11,7 @@
 | 25점 지도에서 무엇을 발견했나? | [07. 2-D Results](./07_2d_results.md) |
 | FR 15–20 nm는 어떻게 도출했나? | [08. Design Window](./08_design_window.md) |
 | 메커니즘과 민감도 검증은? | [09. Validation](./09_validation_and_sensitivity.md) |
-| 한계와 경진대회 결과는? | [10. Limitations & Lessons](./10_limitations_and_lessons.md) |
+| 한계와 개선점은? | [10. Limitations & Lessons](./10_limitations_and_lessons.md) |
 
 ## Data
 
