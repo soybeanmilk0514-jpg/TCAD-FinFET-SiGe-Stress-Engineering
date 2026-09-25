@@ -158,3 +158,7 @@ See [source/README.md](./source/README.md).
 This repository is a personal portfolio reconstruction of a three-person team project. Team-level conclusions are identified as such, and individual contribution is limited to work supported by the shared repository records.
 
 The reported design window applies to the simulated FinFET structure and parameter range used in this project; it is not presented as a universal manufacturing rule.
+
+---
+
+[← Back to Subin Joo's GitHub Portfolio](https://github.com/soybeanmilk0514-jpg)
