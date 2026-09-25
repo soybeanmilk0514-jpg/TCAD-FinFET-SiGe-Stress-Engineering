@@ -40,6 +40,3 @@ Ge-based nominal stress-normalized channel stress metric used by the team.
 Ioff_norm / IdSat_norm:
 Normalized electrical metrics exported with a common team extraction convention.
 
-## Competition Result
-
-The project advanced through the first screening to the second of three screening stages, but did not receive an award.
