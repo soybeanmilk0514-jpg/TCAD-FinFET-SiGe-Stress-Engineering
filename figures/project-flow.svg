@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<rect width="1200" height="300" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#5b6577"/></marker>
+</defs>
+<style>
+.box{fill:#f7f9fc;stroke:#2f6feb;stroke-width:3}
+.h{font:700 25px Arial,sans-serif;fill:#172033;text-anchor:middle}
+.s{font:17px Arial,sans-serif;fill:#5b6577;text-anchor:middle}
+.a{stroke:#5b6577;stroke-width:4;marker-end:url(#arrow)}
+</style>
+<rect class="box" rx="18" x="25" y="72" width="235" height="150"/>
+<text class="h" x="142" y="118">25 nm FinFET</text>
+<text class="s" x="142" y="153">Embedded SiGe S/D</text>
+<text class="s" x="142" y="181">common baseline</text>
+<line class="a" x1="275" y1="147" x2="355" y2="147"/>
+<rect class="box" rx="18" x="370" y="72" width="235" height="150"/>
+<text class="h" x="487" y="118">5 × 5 DoE</text>
+<text class="s" x="487" y="153">Ge 30–70%</text>
+<text class="s" x="487" y="181">FR 0–35 nm</text>
+<line class="a" x1="620" y1="147" x2="700" y2="147"/>
+<rect class="box" rx="18" x="715" y="72" width="235" height="150"/>
+<text class="h" x="832" y="118">Stress + Electrical</text>
+<text class="s" x="832" y="153">STE · gm · SS</text>
+<text class="s" x="832" y="181">DIBL · Ioff</text>
+<line class="a" x1="965" y1="147" x2="1025" y2="147"/>
+<rect class="box" rx="18" x="1040" y="55" width="135" height="185"/>
+<text class="h" x="1107" y="104">Window</text>
+<text class="s" x="1107" y="143">FR</text>
+<text class="h" x="1107" y="178">15–20</text>
+<text class="s" x="1107" y="207">nm</text>
+</svg>
